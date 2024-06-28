@@ -68,3 +68,37 @@ time.sleep(5)
 # To click on under_add_reports
 driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[4]').click()
 time.sleep(5)
+
+# To click on Leave tab
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/aside/nav/div[2]/ul/li[3]/a').click()
+time.sleep(5)
+
+# To click on under_apply
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[1]').click()
+time.sleep(5)
+
+# To click on under_apply
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[2]').click()
+time.sleep(5)
+
+# To click on under_entitlement
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[3]').click()
+time.sleep(5)
+
+# To click on under_report
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[4]').click()
+time.sleep(5)
+
+# To click on under_configure
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[5]').click()
+time.sleep(5)
+
+# To click on under_leave_list
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[6]').click()
+time.sleep(5)
+
+# To click on under_assign_list
+driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/header/div[2]/nav/ul/li[7]').click()
+time.sleep(5)
+
+driver.quit()
